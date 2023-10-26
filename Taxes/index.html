@@ -1,0 +1,43 @@
+<head>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/IncomeTax.js"></script>
+</head>
+<style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+</style>
+
+<body>
+    <p>Enter Taxable Income <input type="number" id="income"></p>
+    <p>Enter Tax Deducted <input type="number" id="taxed"></p>
+
+    <!-- <input id="price" /> -->
+    <button id="calculate">Calculate</button>
+    <span id="results" hidden>
+        <p>The Ontario Tax is <span id="oTax">0</span></p>
+        <p>The Federal Tax is <span id="fTax">0</span></p>
+
+        <p>Total Hst is <span id="hst">0</span></p>
+
+        <p id="owingP">Total tax owing is <span id="owing">0</span></p>
+    </span>
+
+    <script type="module" src="js/main2.js"></script>
+</body>
+
+
+
+
+<!-- 
+References
+Jaiswal, S. (2023, May 4). How to disable arrows from number input? 
+Retrieved from https://www.geeksforgeeks.org/how-to-disable-arrows-from-number-input/
+
+
+-->
+
+
+
